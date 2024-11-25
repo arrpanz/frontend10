@@ -1,0 +1,153 @@
+@import url('https://fonts.cdnfonts.com/css/freitag-display-trial');
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+   
+    height: 20px;
+    width: 20px;
+    padding: 2px 11px 2px;
+    object-fit:cover;
+
+}
+
+.left-logo{
+    display: block;
+    flex-direction: row;
+    height: 10px;
+    width: auto;
+    object-fit: fill ;
+    
+
+}
+a{
+    color: black ;
+}
+a:link {
+    text-decoration: none;
+    text-emphasis-color: white;
+  }
+.right-info{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+   
+
+}
+.nav{
+    display: flex;
+    height: 25px;
+    max-width: 100%;
+    justify-content: space-between;
+    background-color: #FAF9F6;    
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.nav2{
+    display: flex;
+    height: 50px;
+    max-width: 100%;
+    justify-content: space-between;
+    box-shadow: rgba(123, 120, 120, 0.16) 0px 1px 4px;
+}
+.rightimg{
+   height:10px ;
+    display: block;
+    
+
+}
+.searchimg{
+    width: 20px;
+
+    padding: 10px;
+}
+
+
+.navcontent{
+    width: 500px;
+    display: flex;
+    font-weight:lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+.snapshot{
+    width: 100%;
+    object-fit: contain;
+}
+/* typo */
+.typo{
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Akwe Pro', sans-serif;
+    margin-bottom: px;
+    font-weight:bolder;
+}
+.text2{
+    display: flex;
+    justify-content:center;
+    font-family: 'Freitag Display Trial', sans-serif;
+   
+}
+
+/* Card */
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 15px;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 20px;
+    border-color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-size: 20px;
+}
+.card img{
+    object-fit:fill;
+    max-height: 40%;
+    margin: 10px;
+
+    
+}
+
+.price{
+    font-size: 40px;
+}
+
+.card button{
+    align-self:center;
+    height: 50px;
+    width: 140px;
+    margin: 0;
+    padding: auto;
+   border: 20px;
+   font: inherit;
+   border-radius: 10px;
+   background-color: rgb(183, 42, 42);
+    color:rgb(241, 241, 241);
+}
+
+ .card button:hover {
+        cursor: pointer;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+
+      .prod-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+      }
+      .lf{
+        width: 80%;
+      }
